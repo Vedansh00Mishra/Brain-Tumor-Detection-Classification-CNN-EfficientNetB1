@@ -17,29 +17,6 @@ This project focuses on automated brain tumor detection using deep learning, lev
     LLM Integration: Gemini 1.5 / GPT-4V (for heatmap analysis)
     Dataset: MRI scans from publicly available sources (e.g., Kaggle)
 
-🚀 How to Run:
-
-1️⃣ Clone the repository:
-
-git clone https://github.com/yourusername/brain-tumor-detection.git
-cd brain-tumor-detection
-
-2️⃣ Install dependencies:
-
-pip install -r requirements.txt
-
-3️⃣ Train the model:
-
-python train.py
-
-4️⃣ Generate Grad-CAM heatmaps:
-
-python grad_cam.py --image path/to/mri_image.jpg
-
-5️⃣ Get LLM-powered heatmap analysis:
-
-python analyze_with_llm.py --image grad_cam_output.jpg
-
 📄 Future Improvements:
 
 🔹 3D MRI analysis for better feature extraction
@@ -48,9 +25,9 @@ python analyze_with_llm.py --image grad_cam_output.jpg
 📢 Contributing
 
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
-📜 License
 
-This project is open-source under the MIT License.
+
+This project is open-source.
 
 🔬 This project explores the intersection of AI and medical imaging—bringing explainability to deep learning models in healthcare.
 
